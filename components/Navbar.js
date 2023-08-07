@@ -4,7 +4,6 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
-import NavLogo from "../public/log.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -29,7 +28,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center h-full w-full">
-          <Image src={NavLogo} width="100" height="100" />
+          <Image src={"/log.png"} width="100" height="100" />
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
               <Link href="/">
@@ -77,7 +76,7 @@ const Navbar = () => {
             }
           >
             <div className="flex w-full items-center justify-between">
-              <Image src={NavLogo} width="87" height="35" alt="/" />
+              <Image src={"/log.png"} width="87" height="35" alt="/" />
               <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer">
                 {" "}
                 <AiOutlineClose onClick={handleNav} size={25} />{" "}
