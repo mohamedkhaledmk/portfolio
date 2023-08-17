@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center h-full w-full">
-          <Image src={"/../public/logo.png"} width="160" height="100" />
+          <Image src={"/logo.png"} width="160" height="100" />
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
               <button onClick={() => handleAboutClick("home")}>
@@ -77,7 +77,6 @@ const Navbar = () => {
             }
           >
             <div className="flex w-full items-center justify-between">
-              <Image src={"/logo.PNG"} width="200" height="50" alt="/" />
               <Image src={"/logo.png"} width="200" height="50" alt="/" />
               <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer">
                 {" "}
