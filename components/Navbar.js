@@ -4,6 +4,7 @@ import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaFacebook } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Html from "../public/assets/skills/html.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -28,7 +29,8 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center h-full w-full">
-          <Image src={"/../public/logo.png"} width="160" height="100" />
+          <Image src={Html} width="64px" height="64px" alt="/" />
+          {/* <Image src={"/../public/logo.png"} width="160" height="100" /> */}
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
               <button onClick={() => handleAboutClick("home")}>

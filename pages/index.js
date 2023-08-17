@@ -24,7 +24,7 @@ export default function Home() {
           content="I’m a front-end web developer specializing in building exceptional digital experiences."
         />
         <link rel="icon" href="/icon2.png" />
-        {/* <link rel="icon" href="/icon.PNG" /> */}
+        {/* <link rel="icon" href="/icon.png" /> */}
       </Head>
       <main className="">
         {" "}
