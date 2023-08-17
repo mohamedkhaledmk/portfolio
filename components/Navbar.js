@@ -27,9 +27,10 @@ const Navbar = () => {
 
   return (
     <>
+      <Image src={Html} width="64px" height="64px" alt="/" />
+
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center h-full w-full">
-          <Image src={Html} width="64px" height="64px" alt="/" />
           {/* <Image src={"/../public/logo.png"} width="160" height="100" /> */}
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
