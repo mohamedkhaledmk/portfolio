@@ -15,7 +15,7 @@ const Skills = () => {
   return (
     <>
       {" "}
-      <div className="w-full p-2">
+      <div id="skills-start" className="w-full p-2">
         <div className="w-[74%] m-auto">
           {" "}
           <h1 className="uppercase text-xl tracking-widest text-[#5651e5]">

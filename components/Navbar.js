@@ -13,8 +13,8 @@ const Navbar = () => {
     console.log("sss");
   };
 
-  const handleAboutClick = () => {
-    const aboutStart = document.getElementById("about-start");
+  const handleAboutClick = (name) => {
+    const aboutStart = document.getElementById(`${name}-start`);
     if (aboutStart) {
       const offsetTop = aboutStart.offsetTop;
       window.scrollTo({
@@ -28,34 +28,34 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center h-full w-full">
-          <Image src={"/log.PNG"} width="100" height="100" />
+          <Image src={"/logo.PNG"} width="160" height="100" />
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
-              <Link href="/">
+              <button onClick={() => handleAboutClick("home")}>
                 <li className="ml-10 text-sm uppercase hover:border-b-2 border-blue-700">
                   Home
                 </li>
-              </Link>
-              <Link href="/">
+              </button>
+              <button onClick={() => handleAboutClick("about")}>
                 <li className="ml-10 text-sm uppercase hover:border-b-2 border-blue-700">
                   About
                 </li>
-              </Link>
-              <Link href="/">
+              </button>
+              <button onClick={() => handleAboutClick("skills")}>
                 <li className="ml-10 text-sm uppercase hover:border-b-2 border-blue-700">
                   Skills
                 </li>
-              </Link>
-              <Link href="/">
+              </button>
+              <button onClick={() => handleAboutClick("projects")}>
                 <li className="ml-10 text-sm uppercase hover:border-b-2 border-blue-700">
                   Projects
                 </li>
-              </Link>
-              <Link href="/">
+              </button>
+              <button onClick={() => handleAboutClick("contact")}>
                 <li className="ml-10 text-sm uppercase hover:border-b-2 border-blue-700">
                   Contact
                 </li>
-              </Link>
+              </button>
             </ul>
             <div className=" cursor-pointer ">
               <AiOutlineMenu onClick={handleNav} size={25} className="mr-4" />
@@ -76,7 +76,7 @@ const Navbar = () => {
             }
           >
             <div className="flex w-full items-center justify-between">
-              <Image src={"/log.png"} width="87" height="35" alt="/" />
+              <Image src={"/logo.PNG"} width="200" height="50" alt="/" />
               <div className="rounded-full shadow-lg shadow-gray-300 p-3 cursor-pointer">
                 {" "}
                 <AiOutlineClose onClick={handleNav} size={25} />{" "}
@@ -90,27 +90,42 @@ const Navbar = () => {
             <div className="flex flex-col">
               {" "}
               <ul className="">
-                <button className="w-full text-left" onClick={handleAboutClick}>
+                <button
+                  className="w-full text-left"
+                  onClick={() => handleAboutClick("home")}
+                >
                   <li className="ml-10 my-2 text-sm uppercase hover:border-b-2 border-blue-700">
                     Home
                   </li>
                 </button>
-                <button className="w-full text-left" onClick={handleAboutClick}>
+                <button
+                  className="w-full text-left"
+                  onClick={() => handleAboutClick("about")}
+                >
                   <li className="ml-10 my-2 text-sm uppercase hover:border-b-2 border-blue-700">
                     About
                   </li>
                 </button>
-                <button className="w-full text-left" onClick={handleAboutClick}>
+                <button
+                  className="w-full text-left"
+                  onClick={() => handleAboutClick("skills")}
+                >
                   <li className="ml-10 my-2 text-sm uppercase hover:border-b-2 border-blue-700">
                     Skills
                   </li>
                 </button>
-                <button className="w-full text-left" onClick={handleAboutClick}>
+                <button
+                  className="w-full text-left"
+                  onClick={() => handleAboutClick("projects")}
+                >
                   <li className="ml-10 my-2 text-sm uppercase hover:border-b-2 border-blue-700">
                     Projects
                   </li>
                 </button>
-                <button className="w-full text-left" onClick={handleAboutClick}>
+                <button
+                  className="w-full text-left"
+                  onClick={() => handleAboutClick("contact")}
+                >
                   <li className="ml-10 my-2 text-sm uppercase hover:border-b-2 border-blue-700">
                     Contact
                   </li>
