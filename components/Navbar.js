@@ -33,7 +33,7 @@ const Navbar = () => {
           {/* <Image src={"/log.PNG"} width="160" height="100" alt="1" />
           <Image src={"/logo.PNG"} width="160" height="100" alt="2" />
           <Image src={"/logo.png"} width="160" height="100" alt="3" /> */}
-          <img src={"../public/logo.png"} width="160" height="100" alt="4" />
+          <img src={"../public/logo.PNG"} width="160" height="100" alt="4" />
           {/* <Image src={logoImg} width="160" height="100" alt="5" /> */}
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
