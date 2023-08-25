@@ -21,10 +21,16 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
+            title="Node Farm"
+            backgroundImg="/assets/overview.png"
+            projectUrl="/"
+            tech="Node JS"
+          />
+          <ProjectItem
             title="ETQAN ASSESSMENT Tool"
             backgroundImg="/assets/dashboard.PNG"
             projectUrl="/"
-            tech="React JS"
+            tech="Next.js , Node.js"
           />
         </div>
       </div>
