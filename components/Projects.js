@@ -16,7 +16,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Food APP"
-            backgroundImg="/assets/food.PNG"
+            backgroundImg="/assets/food.png"
             projectUrl="https://food-app-using-react-tau.vercel.app/"
             tech="React JS"
           />
