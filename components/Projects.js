@@ -22,8 +22,8 @@ const Projects = () => {
           />
           <ProjectItem
             title="Node Farm"
-            backgroundImg="/assets/overview.png"
-            projectUrl="/"
+            backgroundImg="/assets/overview.pngg"
+            projectUrl="https://node-js-farm.onrender.com/overview"
             tech="Node JS"
           />
           <ProjectItem
