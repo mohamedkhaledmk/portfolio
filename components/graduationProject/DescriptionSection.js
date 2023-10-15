@@ -26,7 +26,7 @@ function DescriptionSection() {
         <div>
           <Image
             class="mt-4 w-full lg:mt-10 rounded-lg"
-            src="/home/ABET.JPG"
+            src="/home/ABET.png"
             alt="office conten"
             width="500"
             height="300"
