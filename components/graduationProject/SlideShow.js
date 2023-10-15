@@ -5,7 +5,7 @@ import "react-slideshow-image/dist/styles.css";
 
 const Slideshow = () => {
   //Array of Images
-  const images = ["Home/benhauniversityhomepage.jpg", "Home/homepageABET.jpg"];
+  const images = ["Home/benhauniversityhomepage.jpg", "Home/homepageabet.jpg"];
 
   //These are custom properties for zoom effect while slide-show
   const zoomInProperties = {
