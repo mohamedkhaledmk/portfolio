@@ -13,7 +13,7 @@ const Projects = () => {
           Projects
         </h1>
         <h1 className="py-4 font-bold text-2xl">What I've Built</h1>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-16">
           <ProjectItem
             title="Food APP"
             backgroundImg="/assets/food.png"
@@ -29,7 +29,7 @@ const Projects = () => {
           <ProjectItem
             title="ETQAN ASSESSMENT Tool"
             backgroundImg="/assets/dashboard.PNG"
-            projectUrl="/"
+            projectUrl="/graduationproject"
             tech="Next.js , Node.js"
           />
         </div>
