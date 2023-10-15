@@ -21,7 +21,7 @@ function services() {
               <div className="bg-blue-500 absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-6 sm:skew-y-0 sm:-rotate-6 rounded-lg"></div>
               <div className="relative z-20 bg-white h-full rounded-md shadow-md">
                 <Image
-                  src="/home/services/files.svg"
+                  src="home/services/files.svg"
                   className="rounded-md m-auto pt-5"
                   width="100"
                   height="100"
