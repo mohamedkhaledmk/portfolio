@@ -92,7 +92,7 @@ const Contact = () => {
                   <Link
                     target="_blank"
                     rel="noreferrer"
-                    href="https://drive.google.com/file/d/1lzLd86SfIhpMetiyQuEAtztnW_nvQKst/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1uKV6BIZhvVtyIorKJ7laeyBGNoyEBlB6/view?usp=drive_link"
                   >
                     <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                       <BsFillPersonLinesFill />
