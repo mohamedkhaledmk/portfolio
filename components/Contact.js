@@ -15,7 +15,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_6sgs0me",
+        "service_yypy80r",
         "template_y7emybi",
         form.current,
         "29ERTikeRr2TMUAAY"
@@ -151,7 +151,10 @@ const Contact = () => {
                     name="message"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 font-bold border-blue-100 bg-blue-600 mt-4">
+                <button
+                  type="submit"
+                  className="w-full p-4 text-gray-100 font-bold border-blue-100 bg-blue-600 mt-4"
+                >
                   Send Message
                 </button>
               </form>
