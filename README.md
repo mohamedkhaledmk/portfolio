@@ -41,7 +41,7 @@ Feel free to get in touch! I’ve included various ways to connect with me, whet
 2. Navigate to the project directory:
 
    ```bash
-   cd your-portfolio
+   cd portfolio
    ```
 
 3. Install the dependencies:
@@ -62,7 +62,7 @@ Feel free to get in touch! I’ve included various ways to connect with me, whet
 
 - Add more animations and interactions.
 - Improve accessibility features.
-- Add more sections as my portfolio grows.
+- Add more projects and sections as my portfolio grows.
 
 ## 🤝 Contributing
 
