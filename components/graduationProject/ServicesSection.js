@@ -2,11 +2,11 @@ import Image from "next/image";
 function services() {
   return (
     <>
-      <section id="services" class="bg-gray-50 pt-20 pb-28 px-8">
+      <section id="services" className="bg-gray-50 pt-20 pb-28 px-8">
         <div className="max-w-6xl mx-auto  border-4 border-sky-500 rounded bg-white">
           <div className="text-center">
-            <h1 class="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
-              <span class="text-transparent bg-clip-text bg-gradient-to-r to-blue-700 from-sky-300">
+            <h1 className="mb-4 text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-700 from-sky-300">
                 Our Services
               </span>
             </h1>

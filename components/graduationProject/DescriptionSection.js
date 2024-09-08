@@ -2,17 +2,17 @@ import Image from "next/image";
 import Link from "next/link";
 function DescriptionSection() {
   return (
-    <section id="desc" class="bg-white dark:bg-gray-900 ">
-      <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div class="text-justify italic  te sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+    <section id="desc" className="bg-white dark:bg-gray-900 ">
+      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+        <div className="text-justify italic  te sm:text-lg dark:text-gray-400">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             What is{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-blue-700 from-sky-400">
               ETQAN
             </span>
             ?
           </h2>
-          <p class="mb-4">
+          <p className="mb-4">
             ETQAN is an online Platform for accreditation and quality assurance
             based on ABET criteria in the higher education institutions for both
             computing and engineering fields.
@@ -25,22 +25,22 @@ function DescriptionSection() {
         </div>
         <div>
           <Image
-            class="mt-4 w-full lg:mt-10 rounded-lg"
+            className="mt-4 w-full lg:mt-10 rounded-lg"
             src="/home/ABET.png"
             alt="office conten"
             width="500"
             height="300"
           />
         </div>
-        <div class="italic text-justify sm:text-lg dark:text-gray-400">
-          <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+        <div className="italic text-justify sm:text-lg dark:text-gray-400">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
             What is{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r to-orange-500 from-red-500">
               ABET
             </span>
             ?
           </h2>
-          <p class="mb-4">
+          <p className="mb-4">
             The ABET (incorporated as the Accreditation Board for Engineering
             and Technology) is a non-governmental organization that accredits
             post-secondary education programs in applied and natural sciences,
@@ -67,7 +67,7 @@ function DescriptionSection() {
         </Link>
       </div>
       <div className="text-center">
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
           "We aim to improve the quality of course management and assessment in
           all
           <br />

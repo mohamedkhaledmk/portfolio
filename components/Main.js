@@ -12,10 +12,10 @@ const Main = () => {
           <p className="uppercase text-sm tracking-widest text-gray-600">
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
-          <h1 class="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+          <h1 className="mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
             {" "}
             Hi I'm{" "}
-            <div class="text-blue-600 dark:text-blue-500 uppercase">
+            <div className="text-blue-600 dark:text-blue-500 uppercase">
               Mohamed Khaled
             </div>{" "}
           </h1>
@@ -52,7 +52,10 @@ const Main = () => {
                 <AiOutlineMail />
               </div>
             </Link>
-            <Link href="https://drive.google.com/file/d/1lzLd86SfIhpMetiyQuEAtztnW_nvQKst/view?usp=sharing">
+            <Link
+              href="https://drive.google.com/file/d/1RRIgDRI99IISiu4g8fMuouVca4HAUGd8/view"
+              target="_blank"
+            >
               <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                 <BsFillPersonLinesFill />
               </div>

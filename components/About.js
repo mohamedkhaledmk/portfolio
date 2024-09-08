@@ -15,7 +15,7 @@ const About = () => {
             About
           </p>
           <h1 className="py-4 font-bold text-2xl">Who I Am</h1>
-          <p className="py-2 text-gray-600">
+          {/* <p className="py-2 text-gray-600">
             I specialize in building mobile responsive front-end UI applications
             that connect with API’s and other backend technologies. I’m
             passionate about learning new technologies and understand there is
@@ -24,21 +24,15 @@ const About = () => {
             React and Next, I am a quick learner and can pick up new tech stacks
             as needed. I believe that being a great developer is not using one
             specific tool, but choosing the best tool for the job.
-          </p>
+          </p> */}
           <p className="py-2 text-gray-600">
-            Throughout my educational career, I have been driven by a passion
-            for science, technology, engineering, and mathematics (STEM). I laid
-            the foundation for my academic journey at Dakahlia STEM Schools,
-            where I had the privilege of honing my skills in these critical
-            disciplines. It was at this esteemed institution that I cultivated a
-            deep appreciation for research and developed the necessary skills to
-            explore the frontiers of knowledge. Now, as I stand at the
-            culmination of my university journey, I am proud to have achieved a
-            "very good with honors" cumulative grade and received an "excellent"
-            evaluation for my Graduation project. I am eager to apply the
-            knowledge and research skills I have acquired to contribute to
-            innovative projects and make a significant impact in the field of
-            computer engineering.
+            A highly motivated junior software developer with a strong academic
+            background in computer science and hands-on experience in the MERN
+            stack. Eager to contribute my skills in full-stack development to a
+            dynamic organization that values growth and innovation. With a
+            passion for solving complex problems and developing scalable web
+            applications, I aim to leverage my technical expertise to deliver
+            solutions that align with company objectives and drive success.
           </p>
           {/* <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
