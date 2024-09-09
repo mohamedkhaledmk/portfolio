@@ -21,7 +21,7 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="I’m a front-end web developer specializing in building exceptional digital experiences."
+          content="I’m a front-end web developer specializing in building exceptional digital experiences. A freelancer that can help you build user interactive responsive websites"
         />
         <link rel="icon" href="/icon2.png" />
         {/* <link rel="icon" href="/icon.png" /> */}
