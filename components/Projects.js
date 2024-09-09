@@ -13,6 +13,13 @@ const projects = [
   },
   {
     id: 2,
+    title: "My Portfolio",
+    backgroundImg: "/assets/portfolio.png",
+    projectUrl: "/",
+    tech: "React JS, Next JS, Tailwind CSS",
+  },
+  {
+    id: 2,
     title: "Food APP",
     backgroundImg: "/assets/food.png",
     projectUrl: "https://food-app-using-react-tau.vercel.app/",
