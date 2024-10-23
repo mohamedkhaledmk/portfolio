@@ -20,17 +20,17 @@ const projects = [
   },
   {
     id: 3,
+    title: "TaskHub",
+    backgroundImg: "/assets/task2.png",
+    projectUrl: "https://taskhub-task-management-app.vercel.app/",
+    tech: "React JS, Mongo DB, Node JS, Express",
+  },
+  {
+    id: 4,
     title: "Food APP",
     backgroundImg: "/assets/food.png",
     projectUrl: "https://food-app-using-react-tau.vercel.app/",
     tech: "React JS",
-  },
-  {
-    id: 4,
-    title: "Node Farm",
-    backgroundImg: "/assets/overview.png",
-    projectUrl: "https://node-js-farm.onrender.com/overview",
-    tech: "Node JS",
   },
   {
     id: 5,
@@ -38,6 +38,13 @@ const projects = [
     backgroundImg: "/assets/town.jpg",
     projectUrl: "https://town-website-using-html-and-css.vercel.app/",
     tech: "HTML & CSS",
+  },
+  {
+    id: 6,
+    title: "Node Farm",
+    backgroundImg: "/assets/overview.png",
+    projectUrl: "https://node-js-farm.onrender.com/overview",
+    tech: "Node JS",
   },
 ];
 

@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
       <div className="fixed w-full h-20 shadow-xl z-[100]">
         <div className="flex justify-between items-center h-full w-full">
-          <Image src={"/logo.png"} width="160" height="100" />
+          <Image src={"/logo.png"} width="160" height="100" alt="/" />
           <div className="flex w-full">
             <ul className="flex w-full justify-end mr-[5%] ">
               <button onClick={() => handleAboutClick("home")}>

@@ -23,7 +23,7 @@ const Skills = () => {
           </h1>
           <h1 className="py-4 font-bold text-2xl">What Can I Do</h1>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 shadow-xl hover:scale-110 ease-in duration-300">
+            <div className="p-6 shadow-xl hover:scale-110 ease-in-out duration-300">
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
