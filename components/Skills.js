@@ -6,6 +6,7 @@ import ReactImg from "../public/assets/skills/react.png";
 import Node from "../public/assets/skills/node.png";
 import Mongo from "../public/assets/skills/mongo.png";
 import Tailwind from "../public/assets/skills/tailwind.png";
+import Bootstrap from "../public/assets/skills/bootstrap.svg";
 import Github from "../public/assets/skills/github1.png";
 import Git from "../public/assets/skills/git.png";
 import NextJS from "../public/assets/skills/nextjs.png";
@@ -22,12 +23,18 @@ const Skills = () => {
             Skills
           </h1>
           <h1 className="py-4 font-bold text-2xl">What Can I Do</h1>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-6 gap-8">
             <div className="p-6 shadow-xl hover:scale-110 ease-in-out duration-300">
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Html} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Html}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">HTML</h3>
@@ -38,7 +45,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Css} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Css}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">CSS</h3>
@@ -49,7 +62,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Javascript} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Javascript}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">JavaScript</h3>
@@ -60,7 +79,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Node} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Node}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">Node</h3>
@@ -71,7 +96,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Mongo} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Mongo}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">Mongo DB</h3>
@@ -82,7 +113,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={ReactImg} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={ReactImg}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">React</h3>
@@ -93,7 +130,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={NextJS} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={NextJS}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">Next</h3>
@@ -104,7 +147,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Github} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Github}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">Github</h3>
@@ -115,7 +164,13 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Git} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Git}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">Git</h3>
@@ -126,10 +181,33 @@ const Skills = () => {
               <div className="grid grid-cols gap-4 justify-center items-center">
                 <div className="m-auto">
                   {" "}
-                  <Image src={Tailwind} width="64px" height="64px" alt="/" />
+                  <Image
+                    src={Tailwind}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
                 </div>
                 <div className="flex flex-col items-center justify-center">
                   <h3 className="font-bold">Tailwind</h3>
+                </div>
+              </div>
+            </div>
+            <div className="p-6 shadow-xl hover:scale-110 ease-in duration-300">
+              <div className="grid grid-cols gap-4 justify-center items-center">
+                <div className="m-auto">
+                  {" "}
+                  <Image
+                    src={Bootstrap}
+                    width="64px"
+                    height="64px"
+                    alt="/"
+                    className="w-16"
+                  />
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <h3 className="font-bold">Bootstrap</h3>
                 </div>
               </div>
             </div>
