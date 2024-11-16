@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <div id="home-start" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
-        <div>
+        <div className="w-full">
           <p className="uppercase text-sm tracking-widest text-gray-600">
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
@@ -21,11 +21,11 @@ const Main = () => {
           </h1>
 
           <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
-          <p className="py-4 sm:max-w-[70%] m-auto text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
+          <p className=" py-4 sm:max-w-[70%] m-auto text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
             I’m focused on building responsive front-end web applications
             integrating back-end technologies.
           </p>
-          <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+          <div className="grid md:flex items-center justify-center max-w-[330px] m-auto py-4">
             <a
               href="https://www.linkedin.com/in/mohamed-khaled-0264571a3/"
               target="_blank"
