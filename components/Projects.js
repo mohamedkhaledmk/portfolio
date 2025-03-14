@@ -18,17 +18,17 @@ const projects = [
     projectUrl: "https://doctor-appointment-booking-gold.vercel.app/",
     tech: "React JS, Next JS, Tailwind CSS",
   },
-  {
-    id: 4,
-    title: "Arabia 6 Sigma",
-    backgroundImg: "/assets/logo.png",
-    projectUrl:
-      "https://drive.google.com/file/d/1yeECdMqv-8dIGlSqTYI4KWyVrcM4mhWf/view?usp=sharing",
-    tech: "React JS & Next JS",
-  },
+  // {
+  //   id: 4,
+  //   title: "Arabia 6 Sigma",
+  //   backgroundImg: "/assets/logo.png",
+  //   projectUrl:
+  //     "https://drive.google.com/file/d/1yeECdMqv-8dIGlSqTYI4KWyVrcM4mhWf/view?usp=sharing",
+  //   tech: "React JS & Next JS",
+  // },
   {
     id: 5,
-    title: "Arabia 6 Sigma",
+    title: "Lawyer App",
     backgroundImg: "/assets/lawyer.png",
     projectUrl:
       "https://drive.google.com/file/d/1jDIDFQUea-L3X6BVYrHZ4DksuxW8Vds4/view?usp=sharing",
