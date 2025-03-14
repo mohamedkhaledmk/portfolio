@@ -19,21 +19,37 @@ const projects = [
     tech: "React JS, Next JS, Tailwind CSS",
   },
   {
-    id: 3,
+    id: 4,
+    title: "Arabia 6 Sigma",
+    backgroundImg: "/assets/logo.png",
+    projectUrl:
+      "https://drive.google.com/file/d/1yeECdMqv-8dIGlSqTYI4KWyVrcM4mhWf/view?usp=sharing",
+    tech: "React JS & Next JS",
+  },
+  {
+    id: 5,
+    title: "Arabia 6 Sigma",
+    backgroundImg: "/assets/lawyer.png",
+    projectUrl:
+      "https://drive.google.com/file/d/1jDIDFQUea-L3X6BVYrHZ4DksuxW8Vds4/view?usp=sharing",
+    tech: "React JS & Next JS",
+  },
+  {
+    id: 6,
     title: "Food APP",
     backgroundImg: "/assets/food.png",
     projectUrl: "https://food-app-using-react-tau.vercel.app/",
     tech: "React JS",
   },
   {
-    id: 4,
+    id: 7,
     title: "Node Farm",
     backgroundImg: "/assets/overview.png",
     projectUrl: "https://node-js-farm.onrender.com/overview",
     tech: "Node JS",
   },
   {
-    id: 5,
+    id: 8,
     title: "Town Website",
     backgroundImg: "/assets/town.jpg",
     projectUrl: "https://town-website-using-html-and-css.vercel.app/",
